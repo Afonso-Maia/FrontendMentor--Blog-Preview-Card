@@ -5,16 +5,8 @@
   --color--white: hsl(0, 0%, 100%);
 }
 
-@font-face {
-  font-family: "Figtree";
-  src: url("./assets/fonts/Figtree-VariableFont_wght.ttf")
-    format("woff2-variations");
-  font-weight: 100 900;
-  font-style: normal;
-}
-
 body {
-  font-family: "Figtree";
+  font-family: "Figtree", sans-serif;
   height: 100vh;
   background-color: var(--color-yellow);
   display: grid;
